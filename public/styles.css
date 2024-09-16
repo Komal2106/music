@@ -1,0 +1,38 @@
+.songs{
+    display: flex;
+    flex-direction: row;
+    height: 80%;
+    flex-wrap: wrap; 
+       
+    padding: 2em;
+    margin: 20px 400px 20px 400px;
+    border: 2px solid steelblue;
+    background-color: aliceblue;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+.fullPage{
+   display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+}
+
+ img{
+    margin-right: 10px;
+    height: 100px;
+    width: 100px ;
+ }
+
+ a{
+   text-decoration: none;
+ }
+
+ h1{
+    text-align: center;
+ }
+
+ body{
+    background-color: lightgray;
+ 
+ }

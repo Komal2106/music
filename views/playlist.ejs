@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel = "stylesheet" href = "/styles.css"/>
+</head>
+<body>
+    <h1>PLAYLIST</h1>
+    <% for(let i = 0; i< playlist.length; i++){%>
+    <div class = "songs">
+        <img src =" <%=playlist[i].artist_image%>"/>
+        <div>
+            <p>Song: <%=playlist[i].title%></p>
+            <p>Artist: <%=playlist[i].artist%></p> 
+        </div>
+
+    </div>
+
+    <%}%>
+</body>
+</html>
